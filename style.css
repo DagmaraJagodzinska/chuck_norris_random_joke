@@ -3,29 +3,29 @@ body{
   font-family: 'Roboto', sans-serif;	;
   font-size: 12px;
 }
+.image {
+  background-image: url("http://www.bfi.org.uk/sites/bfi.org.uk/files/styles/full/public/image/missing-in-action-1984-001-chuck-norris-graphic.jpg?itok=0DjsrRyw");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
 div {
   width: 1200px; 
-  height: 200px;
+  height: 3500px;
   margin: 0 auto;
   text-align: center;
-
-}
-img {
-	margin-bottom: 2em;
-}
-img:nth-child(4) {
-	margin-top: 2em;
-	margin-bottom: 0;
 }
 button {
-  height: 4em;
+  height: 3em;
   width: 8em;
   background-color: #000000;
   color: #fff;
   border: none;
-  margin-bottom: 0.5em;
+  margin-bottom: 5px;
+  margin-top: 20px;
   font-size: 1.5em;
   font-weight: bold;
+  border: 3px solid #fff; 
 }
 button:hover {
   cursor: pointer;
@@ -34,8 +34,9 @@ button:focus {
 	outline: none;
 }
 p {
-	margin-top: 2em;
 	color: #000000;
 	font-size: 1.5em; 
-  height: 70px;
+  height: 60px;
+  background-color: #fff;
+  padding-top: 30px;
 }
