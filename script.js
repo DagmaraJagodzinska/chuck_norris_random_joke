@@ -13,8 +13,8 @@ function getJoke() {
 	var xhr = new XMLHttpRequest();  //nowa instancja
 	xhr.open('GET',url);   // połączenie z adresem
 	xhr.addEventListener('load',function(){  // nasluchiwanie na odp serwera
-		var response = JSON.parse(xhr.response); // w callbacku tworzymy zmienna response 
-		paragraph.innerText = response.value.joke;
+		var response1 = JSON.parse(xhr.response); // w callbacku tworzymy zmienna response 
+		paragraph.innerText = response1.value.joke;
 	});
 	xhr.send();
 }
