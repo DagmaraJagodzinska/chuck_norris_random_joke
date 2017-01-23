@@ -7,6 +7,7 @@ button.addEventListener('click',function(){
 });
 
 //implementacja funkcji getJoke
+window.onload = getJoke();
 
 function getJoke() {
 	var xhr = new XMLHttpRequest();  //nowa instancja
